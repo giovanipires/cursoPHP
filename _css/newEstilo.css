@@ -1,31 +1,36 @@
-@charset "UTF-8";
-/* Isso a globo não mostra */
-
 body {
-    background: url(_imagens/fundo.jpg) ;
-    background-position: 90%;
-    background-size: 90%;
- /* background-attachment: fixed; */
-    font-family: arial, sans-serif;
+   background-image: url(_imagens/fundo.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: 100%;
+   font-family: arial, sans-serif;
 }
 
 div {
-    padding: 8px;
-    position: relative;
-    width: 700px;
-    height: 500px;
-    background-color: #f8f8f8;
-    margin: 145px auto 200px auto;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
-    word-wrap: break-word;
+   padding: 8px;
+   position: relative;
+   width: 700px;
+   height: 500px;
+   background-color: #f8f8f8;
+   margin: 145px auto 200px auto;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-shadow: 1px 1px 0.3px rgba(0,0,0,.3);
+   word-wrap: break-word;
+}
+
+h1 {
+   font: 18pt Arial;
+   color: white;
+   font-weight: bold;
+   background-color:#0061a7;
 }
 
 h2 {
-    font: 33pt Arial;
-    color: #171559;
-    font-weight: bold;
+   font: 12pt Arial;
+   color: #171559;
+   font-weight: bold;
 }
 
 .myButton {
@@ -67,5 +72,3 @@ h2 {
 	position:relative;
 	top:1px;
 }
-
-/* Long live House Stark */
