@@ -23,14 +23,20 @@ div {
 h1 {
    font: 18pt Arial;
    color: white;
-   font-weight: bold;
    background-color:#0061a7;
+   font-weight: bold;
 }
 
 h2 {
-   font: 12pt Arial;
+   font: 13pt Arial;
    color: #171559;
    font-weight: bold;
+}
+
+span {
+	font: 11pt Arial;
+	color: red;
+	font-weight: bold;
 }
 
 .myButton {
